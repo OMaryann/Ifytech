@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.group{
+    background-color:rgb(202, 202, 202);
+    height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+}
+.name{
+    display: flex;
+}
+.name h1{
+    margin: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    font-family: sans-serif;
+}
+nav {
+    margin-left: auto;
+    text-align: center;
+    padding: 20;
+    
+}
+nav ul li a { 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 10px;
+    font-family: sans-serif;
+}
+nav ul li a:hover { 
+    background-color: gray;
+    color: white;
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{ 
+    display: flex;
+    background-color:black;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+body {
+    height: 100%;
+    font-family: sans-serif;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(8, 8, 244);
+    font-size: 15px;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+h1 {
+    padding: 20px;
+    font-family: sans-serif;
+}
+nav {
+        margin-left: auto;     
+}
+header a:hover{
+    background-color: gray;
+    color: black;
+}
+main .sociallink img {
+    width: 30px;
+    padding: 5px;
+}
+main {
+    background-color: white;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.sociallink {
+    float: right;
+    }
+    
+.sociallink ul {
+    list-style: none;
+}
+
+
+.address {
+    text-align: center;
+    padding: 0px;
+    height: 0;  
+}
+p2 { text-decoration: underline;}
+ 
+main .images {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.mission-image img {
+    width: 200px;
+    height: auto;
+}
+
+.services-hold {
+    display: flex;
+    justify-content: center;
+    color: rgb(101, 97, 97);
+    
+}
+
+.services-hold .hold {
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 4px 4px 5px 4px gainsboro ; 
+    transition: all .5s;
+    width: 300px;
+    justify-content: center;
+} 
+
+.services-hold .hold:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+    
+}
+.services-hold h4 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}  
+.about {
+    text-align: justify;
+    
+}
+
+footer {
+    background-color: black;
+    color: rgb(206, 204, 204);
+    padding: 20px;   
+}
+footer p  {
+    text-align: right;
+}
