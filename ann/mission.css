@@ -11,13 +11,16 @@
 }
 body {
     height: 100%;
-    font-family: sans-serif;
-    
+    font-family: sans-serif;   
 }
 a {
     text-decoration: none;
-    color: rgb(8, 8, 244);
+    color: white;
     font-size: 15px;
+}
+.portfolio a {
+    color: blue;
+    
 }
 header nav ul li {
     display: inline-block;
@@ -68,10 +71,7 @@ main .images {
     display: flex;
 }
 
-.mission-image img {
-    width: 200px;
-    height: auto;
-}
+
 
 .services-hold {
     display: flex;
@@ -97,18 +97,95 @@ main .images {
 .services-hold h4 {
     text-align: center;
     color: rgb(0, 0, 0);
-    font-size: medium;
+   
 }  
 .about {
+    text-align: justify; 
+}
+
+.y {
+    box-shadow: 4px 4px 5px 4px gainsboro ; 
+    transition: all .5s;
+    justify-content: center;
+    padding: 30px;
+    line-height: 25px;
+}
+.about2 {
+    box-shadow: 4px 4px 5px 4px gainsboro ; 
+    transition: all .5s;
+    justify-content: center;
+    padding: 30px;
+    line-height: 25px;
+   
+}
+.about1 {
     text-align: justify;
+    line-height: 20px;
+
+}
+.mission-image {
+    box-shadow: 4px 4px 5px 4px gainsboro; 
+    transition: all .5s;
+    justify-content: center;
+    line-height: 25px;
+    text-align: justify;
+    padding: 20px;
     
 }
+.mission-image img{
+    padding: 10px;
+    margin-right: 20px;
+}
+.contact1 {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+.iframe {
+    margin-left: 300px;
+}
+.contact-form {
+    width: 500px;
+    height: 300px;
+    margin-left: 40px;
+    display: block;
+    box-shadow: 4px 4px 5px 4px gainsboro;
+    justify-content: center;
+    padding: 20px;
+    width: 30;
+    
+}
+.submit {
+    width: 20%;
+}
+.submit :hover {
+    background-color: black;
+    color: white;
+}
+.contact-form input {
+    width: 80%;
+    height: auto;
+}
+
 
 footer {
     background-color: black;
     color: rgb(206, 204, 204);
-    padding: 20px;   
+    padding: 20px; 
+    text-align: justify;  
 }
 footer p  {
     text-align: right;
+}
+#arrowup {
+    position: fixed;
+    background-color: rgb(144, 140, 140);
+    width: 50px;
+    height: 40px;
+    margin: 20px;
+    top: 80%;
+    left: 90%;
+    border-radius: 30px;
+    border: none;
 }
