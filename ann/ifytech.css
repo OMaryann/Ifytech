@@ -23,11 +23,12 @@ a {
 .portfolio {
     align-items: center;
     display: flex;
+    gap: 5px; 
+}
+.portfolio p {
+    color: rgb(218, 109, 20)
 }
    
-.portfolio1  {
-    margin: 10px;
-}
 header nav ul li {
     display: inline-block;
     padding: 20px;
@@ -61,7 +62,6 @@ main .sociallink img {
 
 main .ifytech {
     text-align: justify;
-    box-shadow: 4px 4px 5px 4px gainsboro;
     padding: 20px;
     line-height: 25px;
     align-content: center;

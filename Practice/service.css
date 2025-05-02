@@ -42,3 +42,15 @@ nav ul li a:hover {
     background-color: gray;
     color: white;
 }
+
+tr,th,td {
+    border: 2px solid black;
+    
+}
+table {
+    border-collapse: collapse;
+}
+ol, ul, dl {
+    margin: 20px;
+}
+
