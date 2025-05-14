@@ -10,7 +10,9 @@ header{
     display: flex;
     align-items: center;
     background-color: white;
-    
+}
+main {
+    margin: 20px;
 }
 .name{
     display: flex;
@@ -52,5 +54,8 @@ table {
 }
 ol, ul, dl {
     margin: 20px;
+}
+.showmore .text-hold {
+    display: none;
 }
 

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-image: url('images 2/graphic-design2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+   
+  
+}
+
+
+.hold {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+   
+}
+h1 {
+    text-align: center;
+   margin-top: 15%;
+    color: white;
+    padding: 10px;
+}
+.inventory {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px  white  ;
+    padding: 30px; 
+}
+h2 {
+    text-align: center;
+}
+.inventory a {
+    text-decoration: none;
+    margin: 150px;
+    color: blue;
+}
+.form-container {
+    background-color: white;
+    padding:40px;
+    width: 20%;
+    border-radius: 5px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login {
+    float: right;
+    width: 5px;
+    
+
+}
