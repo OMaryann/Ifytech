@@ -23,7 +23,7 @@ body {
 }
 h1 {
     text-align: center;
-   margin-top: 15%;
+   margin-top: 8%;
     color: white;
     padding: 10px;
 }
@@ -44,11 +44,12 @@ h2 {
 .form-container {
     background-color: white;
     padding:40px;
-    width: 20%;
+    width: 22%;
     border-radius: 5px;
     justify-items: center;
     margin-left: auto;
     margin-right: auto;
+  
 }
 .login {
     float: right;

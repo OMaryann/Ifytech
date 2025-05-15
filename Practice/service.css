@@ -58,4 +58,8 @@ ol, ul, dl {
 .showmore .text-hold {
     display: none;
 }
+h1 .web {
+    color: blue;
+}
+
 
